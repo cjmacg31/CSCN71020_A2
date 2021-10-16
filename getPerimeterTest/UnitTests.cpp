@@ -50,8 +50,8 @@ namespace UnitTests
 		TEST_METHOD(T004_setLength)
 		{
 			//Verify pass in input of 67.5 and length is set to 67.5
-			int actual = -87.2;
-			int input = -67.5;
+			int actual = 87.2;
+			int input = 67.5;
 
 			setLength(input, &actual);
 
@@ -61,8 +61,8 @@ namespace UnitTests
 		TEST_METHOD(T005_setLength)
 		{
 			//Verify pass in input of -6 and length is set to -6
-			int actual = 101;
-			int input = -6;
+			int actual = 100;
+			int input = 4;
 
 			setLength(input, &actual);
 
@@ -94,7 +94,7 @@ namespace UnitTests
 		TEST_METHOD(T008_setWidth)
 		{
 			//Verify pass in input of 23 and width is set to 23
-			int Expected = -2;
+			int Expected = 23;
 			int actual =  Expected;
 			int input =  23 ;
 			
